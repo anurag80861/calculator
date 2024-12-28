@@ -23,7 +23,7 @@ function App() {
  
   return (
     <div className='flex justify-center items-center min-h-screen'>
-      <h1 className='flex justify-start items-start min-h-screen '>Calculator</h1>
+      
       <form className='h-[500px] w-[380px] rounded-xl p-5 bg-black'>
         <input type='text' readOnly value={input} className='h-[45px] w-full text-white bg-[#5e5959] focus:outline-none rounded-xl ' />
         <div className='text-white font-semibold grid grid-cols-4 grid-rows-5 text-3xl gap-y-2 my-3 items-center justify-center '>
